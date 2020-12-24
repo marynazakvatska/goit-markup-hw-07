@@ -1,0 +1,53 @@
+.footer {
+  display: flex;
+  background-color: $color-hero-footer-background;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &-address.container {
+    display: flex;
+  }
+}
+
+.logo-studio.address {
+  color: $color-clear-text;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+
+.address-text {
+  display: block;
+  color: $color-clear-text;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-primary;
+  line-height: 1.71;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.address-contacts {
+  font-weight: 400;
+  font-size: $font-primary;
+  line-height: 1.71;
+  color: $color-address-contacts;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.address-meta {
+  width: max-content;
+  margin-right: 83px;
+}
+
+.div-address {
+  width: max-content;
+}
+
+.joing {
+  display: block;
+  padding-top: 8px;
+  margin-right: 0px;
+  width: max-content;
+  align-items: left;
+}

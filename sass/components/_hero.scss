@@ -1,0 +1,47 @@
+/*hero */
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $color-overlay-hero;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images-psevdoelements/Img.jpg);
+}
+
+.hero-title {
+  color: $color-clear-text;
+  font-weight: 900;
+  font-size: $font-hero-title;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.button.hero {
+  color: $color-clear-text;
+  background-color: $color-button-background-accent;
+  font-size: $font-medium;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0px;
+}

@@ -1,0 +1,10 @@
+.clients-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.icon-clients:not(:last-child) {
+  margin-right: 30px;
+}

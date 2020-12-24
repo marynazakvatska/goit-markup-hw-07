@@ -1,0 +1,45 @@
+.work-title,
+.team-title,
+.our-clients-title {
+  color: $color-title-text;
+  font-size: $font-section;
+  line-height: 1.17;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team {
+  background-color: $color-team-background;
+  &-list {
+    display: flex;
+    text-align: center;
+  }
+  &-element {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &-name {
+    color: $color-title-text;
+    font-weight: 500;
+    font-size: $font-medium;
+    line-height: 1.19;
+    margin-bottom: 10px;
+  }
+}
+.team {
+  &-profession {
+    color: $color-primary-text;
+    font-size: $font-medium;
+    line-height: 1.19;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  &-list .team-element:not(:last-child) {
+    margin-right: 30px;
+  }
+}
